@@ -53,7 +53,7 @@ En ese sentido, tras realizar algunas operaciones matemáticas y aumentar la par
 
 ### Shading
 La representación de este mecanismo dentro de la escena se basó en la interpolación de los colores de acuerdo a su posición dentro del triángulo y su cercanía a los vértices. En este caso, se utilizaron los colores RGB ( Red, Green, Blue) para visualizar de mejor manera el contenido de color.
-Se hizo la conversión del espacio cartesiano a baricéntrico con el propósito de obtener los coeficientes *_alpha, *_beta, *_gamma los cuales fueron utilizados para determinar el rango de color apropiado para pintar el "píxeles".
+Se hizo la conversión del espacio cartesiano a baricéntrico con el propósito de obtener los coeficientes *alpha*, *beta*, *gamma* los cuales fueron utilizados para determinar el rango de color apropiado para pintar el "píxeles".
 
 ## Dificultades
 Las dificultades presentadas en este proceso se fundamentaron en el entendimiento y compresión particular de los límites de rasterización, pues la ubicación en cada uno de los "píxeles" impedían el avance y desarrollo. Adicionalmente, el descubrimiento e implementación de las técnicas conllevaron problemas de diseño y codificación por la valoración específica de los "píxeles" y su ubicación dentro del triángulo.
